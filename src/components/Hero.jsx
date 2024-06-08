@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div
       className='min-h-screen flex flex-col gap-10
-      items-center justify-center text-center max-w-[900px] 
+      items-center justify-center text-center max-w-[800px] 
       w-full mx-auto'
     >
       <div className='flex flex-col gap-4'>
@@ -23,7 +23,10 @@ export default function Hero() {
         accept all risks of becoming the local<span> mass montrosity</span>,
         afflicted with severe body dismorphia, unable to fit through doors.
       </p>
-      <button className='px-8 py-4 rounded'>
+      <button
+        className='px-8 py-4 rounded-md border-[2px] bg-slate-950
+        border-blue-400 border-solid blueShadow duration-200'
+      >
         <p>Accept and Begin</p>
       </button>
     </div>
