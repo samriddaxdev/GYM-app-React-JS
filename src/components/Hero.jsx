@@ -5,7 +5,7 @@ export default function Hero() {
     <div
       className='min-h-screen flex flex-col gap-10
       items-center justify-center text-center max-w-[800px] 
-      w-full mx-auto'
+      w-full mx-auto p-4'
     >
       <div className='flex flex-col gap-4'>
         <p>IT'S TIME TO GET</p>
