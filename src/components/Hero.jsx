@@ -15,7 +15,7 @@ export default function Hero() {
       text-4xl sm:text-5xl md:text-6xl
       lg:text-7xl'
         >
-          Lift<span className='text-blue-400'>Logix</span>
+          Jagger<span className='text-blue-400'>Naut</span>
         </h1>
       </div>
       <p className='text-sm md:text-base font-light'>
