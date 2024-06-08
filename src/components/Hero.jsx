@@ -15,13 +15,13 @@ export default function Hero() {
       text-4xl sm:text-5xl md:text-6xl
       lg:text-7xl'
         >
-          Jagger<span className='text-blue-400'>Naut</span>
+          Jugger<span className='text-blue-400'>Naut</span>
         </h1>
       </div>
       <p className='text-sm md:text-base font-light'>
         I hereby acknowledge that I may become{' '}
-        <span className='text-blue-400 font-medium'>unbelievably fit </span> and
-        accept all risks of becoming the local<span> mass montrosity</span>,
+        <span className='text-blue-400 font-medium'>unbelievably huge </span>{' '}
+        and accept all risks of becoming the local<span> mass montrosity</span>,
         afflicted with severe body dismorphia, unable to fit through doors.
       </p>
 
