@@ -36,7 +36,7 @@ export default function ExerciseCard(props) {
         <h3 className='text-slate-400 text-sm'>Muscle Groups</h3>
         <p className='capitalize'>{exercise.muscles.join(' & ')}</p>
       </div>
-      <div className='flex flex-col bg-slate-950 rounded  gap-2'>
+      <div className='flex flex-col bg-slate-950 rounded  gap-2 '>
         {exercise.description.split('___').map((val) => {
           return <div className='text-sm '>{val}</div>;
         })}
